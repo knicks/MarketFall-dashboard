@@ -6,7 +6,7 @@
   "deploy": {
     "runtime": "V2",
     "numReplicas": 1,
-    "startCommand": "streamlit run dashboard.py --server.port $PORT",
+    "startCommand": "streamlit run dashboard.py --server.port $PORT --server.address 0.0.0.0",
     "sleepApplication": false,
     "multiRegionConfig": {
       "europe-west4-drams3a": {
